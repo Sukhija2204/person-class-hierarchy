@@ -1,36 +1,26 @@
-## React
+# 👩‍🏫 Person Class Hierarchy with Student and Teacher Subclasses
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+## 🎯 Objective
+Understand and apply the concept of **inheritance in JavaScript (ES6 classes)** by creating a base class and extending it into specialized subclasses.  
+This strengthens foundational skills in **object-oriented programming** within modern JavaScript.
 
-## How to run
+---
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
-   ```sh
-   npm install
-   ```
+## 📌 Task Description
+- Create a base **Person** class with:
+  - Properties: `name`, `age`
+  - Method: `displayInfo()` to show basic details  
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
+- Create a **Student** subclass (extends Person) with:
+  - Extra property: `grade` or `course`
+  - Method override or extension to display student details  
 
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+- Create a **Teacher** subclass (extends Person) with:
+  - Extra property: `subject` or `department`
+  - Method override or extension to display teacher details  
 
+- Instantiate objects from both subclasses and demonstrate calling their methods to show **inheritance** and **method overriding**.
 
-## FAQs & Debugging
-
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
-
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
-
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
-
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+---
+## 🔗 Project Link
+https://srishti-react3.bytexl.live/
